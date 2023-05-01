@@ -1,0 +1,43 @@
+.flex-parent {
+    border: 25px solid rgb(0, 255, 145);
+    border-radius: 10px;
+    /* height: 50vh; */
+    min-height: 50vh;
+  
+    /* DECLARE FLEXBOX */
+    display: flex;
+  
+    /* PLACE HORIZONTALLY */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /*align-items: flex-start; /* --> FLEX DIRECTION */
+  
+    /* PACE VERTICALLY */
+    align-items: flex-end;
+    /* align-items: stretch; */
+    align-items: center;
+    /*align-items: flex-end; /* --> FLEX DIRECTION */
+  
+    /* FLEX DIRECTION */
+    /* flex-direction: row;
+      flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  
+  .flex-child {
+    border-radius: 5px;
+    border: 5px solid green;
+    height: 250px;
+    width: 100px;
+    margin: 10px;
+    /* INHALT ZENTRIEREN MIT DREI ZEILEN CODE: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
